@@ -1,0 +1,60 @@
+{
+  "name": "healthmeds",
+  "version": "1.0.0",
+  "description": "One Step Towards Health",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "author": "Ycce Student",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "alert": "^5.1.4",
+    "axios": "^1.3.5",
+    "babel": "^6.23.0",
+    "bcryptjs": "^2.4.3",
+    "build": "^0.1.4",
+    "build-js": "^1.0.0",
+    "build.js": "^0.3.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "helmet": "^6.0.1",
+    "html": "^1.0.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.2.0",
+    "mongoose": "^5.13.17",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "validator": "^13.9.0",
+    "watch.js": "^0.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "ndb": "^0.2.4",
+    "nodemon": "^2.0.22",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.8.7"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

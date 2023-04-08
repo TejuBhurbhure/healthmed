@@ -1,0 +1,51 @@
+extends main
+
+
+block content
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login | Health Meds</title>
+        <link rel="stylesheet" href="/User/Login/css/style.css">
+        <link rel="stylesheet" href="/chatBot/static/style.css">
+    </head>
+    <body>
+        <div class="main-wrap">
+            <div class="outer-wrap">
+                <div class="img-wrap">
+                    <img src="/User/Login/images/9277_cartoon-doctor-png.png" alt="">
+                </div>
+                <div class="form-wrap">
+                    <h1>Login</h1>
+                    
+                    <form action="/login" method="post" class="form">
+                        <br>
+                        <input type="email" name="email" placeholder="Email"><br>
+                        <input type="password" name="pass" placeholder="Password"><br>
+                        <button type="submit" class="btn">Login</button>
+                    </form>
+
+                    <div class="social-login">
+                        <a href="#">
+                            <img src="/User/Login/images/google.png" alt="Google">
+                        </a>
+                        <a href="#">
+                            <img src="/User/Login/images/fb.png" alt="Facebook">
+                        </a>
+                        <a href="#">
+                            <img src="/User/Login/images/twitter.png" alt="Twitter">
+                        </a>
+                    </div>
+                    <div class="bottom-text">
+                        <p>Don't have an account? <a href="register">Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/"></script>
+        <script src="/js/login.js"></script>
+    </body>
+    </html>
